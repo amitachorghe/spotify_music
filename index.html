@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="logo"><img src="./logo1.png" /><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About us</li>
+        </ul>
+    </nav>
+    <div class="container">
+   <!-- icons and list of songs here  -->
+   <span>Best of Arijit Singh</span>
+   <div class="musicname">
+       <img src="./song1.jpg" id="song1"/>
+       <span>Agar tum sath ho</span>
+       <img src="./media-play-icon-14.jpg" id="1" class="icons" />
+    </div>
+    <div class="musicname">
+        <img src="./song2.jpg" />
+        <span>Chahu mai ya na</span>
+        <img src="./media-play-icon-14.jpg" id="2" class="icons"/>
+    </div>
+    <div class="musicname">
+        <img src="./song3.jpg" />
+        <span>Tujhe kitna chah ne lage</span>
+        <img src="./media-play-icon-14.jpg" id="3" class="icons"/>
+    </div>
+    <div class="musicname">
+        <img src="./song4.jpg" />
+        <span>Tose naina</span>
+        <img src="./media-play-icon-14.jpg" id="4" class="icons"/>
+   </div>
+    </div>
+    <div class="playfunctions">
+        <input type="range" id="progressbar" value="0" min="0" max="100">
+        <div class="controls">
+            <img src="./audioplay.gif" id="playinggif">
+            <div class="button">
+                <img src="./media_backward_use.png" />
+                <img src="./media-play-icon-14.jpg" class="icon"id="playbutton" />
+                <img src="./media_forward_use.png" />
+            </div>
+            <div id="songname">
+                <span>Playing</span>
+            </div>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+</html>
